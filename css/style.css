@@ -1,0 +1,84 @@
+header{
+    background-color: #ffffff;
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+.header__logo{
+    width: 13.88vw;
+    height: 23.07%;
+}
+.header__img{
+    width: 60.19vw;
+    height: 100%;
+}
+.hamburger-menu{
+    display: flex;
+}
+.menu-btn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    width: 13.88vw;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    border: #000000 1px solid;
+    border-radius: 6px
+}
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 4.44vw;
+    border-radius: 3px;
+    background-color: #000000;
+    position: absolute;
+}
+.menu-btn span:before {
+    bottom: 8px;
+}
+.menu-btn span:after {
+    top: 8px;
+}
+body{
+    background-color: #F3ECB0;
+}
+.main{
+    padding: 20px 0;
+}
+.main__image{
+    text-align: center;
+}
+.main__image--detail{
+    margin: auto;
+    width: 91.66vw;
+    height: 78.7%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.main__subimageBox{
+    width: 91.38vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 17px;
+    margin: 17px auto 0;
+}
+.main__subimage--detail{
+    border-radius: 6px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+footer{
+    background-color: #F3ECB0;
+    text-align: center;
+}
