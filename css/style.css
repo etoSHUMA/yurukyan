@@ -1,3 +1,6 @@
+@media screen and (max-width:750px) {
+/* SP */
+/* ヘッダー */
 header{
     background-color: #ffffff;
 }
@@ -48,6 +51,7 @@ header{
 .menu-btn span:after {
     top: 8px;
 }
+/* body */
 body{
     background-color: #F3ECB0;
 }
@@ -78,7 +82,39 @@ body{
     display: block;
     margin: 0 auto;
 }
+/* フッター */
 footer{
     background-color: #F3ECB0;
     text-align: center;
+}
+.footer__nav{
+    margin-top: 7px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 17.87px;
+}
+.footer__subtitle{
+    color: #EF6D58;
+}
+.footer__link{
+    margin-top: 8.91px;
+}
+.footer__box{
+    display: grid;
+}
+.icon__nav{
+    margin: 24.29px auto 0;
+    padding-bottom: 14px;
+    width: 91.38%;
+    border-bottom: #F3D1BF 1px solid;
+    display: flex;
+    justify-content: center;
+}
+.icon__nav--Twitter{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.footer__righter{
+    margin: 50.5px auto 8.38px;
+}
 }
